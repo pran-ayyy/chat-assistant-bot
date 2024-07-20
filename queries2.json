@@ -1,0 +1,120 @@
+{
+    "queries": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "apply Lisence",
+        "patterns": [
+          "how do I apply for Driver's Lisence",
+          "where to apply for Driver's Lisence",
+          "how to apply for Driver's Lisence"
+        ],
+        "responses": [
+          "Here are a the instructions to apply for Driver's Lisence:\n1.Collect the necessary documents, including proof of identity, residence, and social security number.\n2.Complete a driver's education course, if required.\n3.Visit your local DMV with all the required documents, fill out application forms, and pass the written, vision, and practical tests to obtain your driver's license.",
+          "Direct to the following website to apply for the Driver's Lisence."
+        ]
+      },
+      {
+        "tag": "apply Passport",
+        "patterns": [
+          "how do I apply for a Passport",
+          "where to apply for a Passport",
+          "how to register for a passport"
+        ],
+        "responses": [
+            "Here are a few instructions to apply for the passport:\n1.Gather the required documents such as proof of identity, proof of citizenship, and passport photos.\n2.Complete the passport application form accurately and sign it.\n3.Submit your application, along with the necessary fees, at an authorized passport acceptance facility or by mail."
+        ]
+    },
+      {
+        "tag": "job",
+        "patterns": [
+          "How to find government jobs",
+          "What are the job options",
+          "Where do I find job openings"
+        ],
+        "responses": [
+          "The government jobs available currently are as follows.",
+          "Follow to this webpage for the job applications."
+      ]
+      },
+      {
+        "tag": "taxes",
+        "patterns": [
+          "Where to find tax forms",
+          "What are the tax implications",
+          "How to track tax refund status",
+          "How to file my taxes"
+        ],
+        "responses":[
+          "You can find all the rules and clauses for tax payments in the following link: <link>"
+        ]
+      },
+      {
+        "tag": "human",
+        "patterns": [
+          "I need human assisstance",
+          "Can I talk with a human",
+          "I want to talk to a person",
+          "contact a person"
+        ],
+        "responses": [
+          "Hold on for a minute while I hook you up with one of our agents.",
+          "Our agents are all currently busy, sorry for the inconvenience caused."
+        ]
+      }
+    ]
+  }
